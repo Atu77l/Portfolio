@@ -133,10 +133,27 @@ input[type=text], select, textarea {
   }
 .box{
     text-decoration: black;
-    color:black;
+    color:beige;
 }
 .bg-dark{
     background-color: #3693ff;
     text-align: center;
+    height:25px;
+}
+.feature{
+    border-radius: 50%;
+    background-color: #3693ff;
+}
+.mail-icon{
+    border-radius: 50%;
+    background-color: blueviolet;
+    width: 100px;
+    margin-left: 150px;
+}
+.form-container{
+    width: 400px;
+    align-content: center;
+    margin-left:550px;
+
 }
 
