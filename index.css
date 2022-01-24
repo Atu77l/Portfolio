@@ -1,3 +1,8 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
@@ -10,7 +15,7 @@ body {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    background-color: rgb(192, 100, 100);
+    background-color:cornflowerblue;
     color: #fff;
     padding: 1.5rem 8rem;
     position: sticky;
@@ -47,6 +52,10 @@ li{
     font-size: 30px;
     margin-top: 10px;
 }
+.lead{
+    color: black;
+    font-size:25px;
+}
 /* skills session */
 #skills {
     text-align: center;
@@ -68,9 +77,12 @@ li{
 }
 .text-primary{
     color: crimson;
+    font-size: 45px;
+}
+.text-primary1{
+    color: crimson;
     font-size: 25px;
 }
-
 /* Contact Session */
 /* #Contact .mail-icon {
     font-size: 4rem;
@@ -134,11 +146,13 @@ input[type=text], select, textarea {
 .box{
     text-decoration: black;
     color:beige;
+    font-size: 30px;
 }
 .bg-dark{
     background-color: #3693ff;
     text-align: center;
     height:25px;
+    margin-top:10px;
 }
 .feature{
     border-radius: 50%;
@@ -155,5 +169,10 @@ input[type=text], select, textarea {
     align-content: center;
     margin-left:550px;
 
+}
+.head11{
+    font-weight: 800;
+    color:brown;
+    margin:10px;
 }
 
